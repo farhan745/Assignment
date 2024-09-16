@@ -35,7 +35,7 @@ try:
           try:
               print(f"{num1} / {num2} = {divid(num1, num2)}")
           except ZeroDivisionError:
-              print("Cannot divide by zero.")
+              print("Error! Cannot divide by zero.")
       elif choice_num == 5:
           if num2 == 0:
               print("Error! Connot modulo by zero.")

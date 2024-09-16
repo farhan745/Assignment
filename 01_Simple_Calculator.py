@@ -38,7 +38,7 @@ try:
               print("Cannot divide by zero.")
       elif choice_num == 5:
           if num2 == 0:
-              print("Error!")
+              print("Error! Connot modulo by zero.")
               exit()
           else:
               print(f"{num1} % {num2} = {mod(num1, num2)}")

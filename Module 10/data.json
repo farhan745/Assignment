@@ -1,0 +1,26 @@
+{
+    "students": [
+        {
+            "name": "Bami",
+            "age": 24,
+            "address": "CTG",
+            "student_id": "21",
+            "grades": {
+                "Math": "A+"
+            },
+            "courses": [
+                "Math"
+            ]
+        }
+    ],
+    "courses": [
+        {
+            "course_name": "Math",
+            "course_code": "M123",
+            "instructor": "Guru",
+            "students": [
+                "21"
+            ]
+        }
+    ]
+}

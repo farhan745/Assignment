@@ -1,0 +1,218 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.size {
+}
+.text-color {
+  position: relative;
+  top: 30;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 490px;
+  color: rgb(197, 184, 184);
+  background: linear-gradient(rgba(19, 3, 255, 0.5), rgba(0, 4, 255, 0.5)),
+    url(./image/hero-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  border-bottom-right-radius: 30%;
+  border-bottom-left-radius: 30%;
+}
+.card-1 {
+  margin: 10px 10px;
+  position: relative;
+  top: 5px;
+  left: 90px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.card-2 {
+  display: flex;
+  margin: 10px 10px;
+  position: relative;
+  left: 80px;
+}
+.card-0 {
+  position: relative;
+  top: 150px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.textdiv1 {
+  font-size: 40px;
+  padding: 70px 0px;
+}
+.bootslander-clr {
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: aqua;
+  padding-bottom: 5px;
+}
+.border-play {
+  border: 2px solid lightgreen;
+}
+.bor-1 {
+  width: 450px;
+  height: 30px;
+  border: 1px solid white;
+
+}
+.op-1{
+  margin: 20px 210px;
+}
+.f-card{
+  width: 100%;
+  height: 250px;
+  
+}
+.profile{
+  background-size: cover;
+}
+.u-card{
+  margin-left: 130px;
+}
+.aqua-line{
+  width: 170px;
+  height: 3px; 
+  background-color: rgb(3, 252, 252);
+  border: none;
+}
+.happy{
+  z-index: 100;
+  height:40px;
+  width:40px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: rgb(235, 231, 231);
+  position: relative;
+  left: 110px;
+  top:32px;
+}
+#hap-pos{
+  position: relative;
+  top: 6px;
+}
+.bg-dg{
+  background:  linear-gradient(rgba(19, 10, 255, 0.5), rgba(0, 4, 255, 0.5)),url(./image/cta-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+.team1{
+  position: relative;
+  bottom:20px;
+  left: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.line1{
+  width: 120px;
+  height: 3px; 
+  background-color: rgb(37, 46, 46);
+  border: none;
+}
+.i1{
+  position: relative;
+  left:80px;
+  margin-right: 3px;
+}
+.i2{
+  position: relative;
+  left:100px;
+  margin-right: 3px;
+}
+.i3{
+  position: relative;
+  left:170px;
+  margin-right: 3px;
+}
+.plan{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:20px;
+
+}
+.price-tag {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.dollar {
+  color: #00d1b2;
+  position: relative;
+  bottom: 5px;
+  left:7px;
+}
+.month{
+  position: relative;
+  top: 5px;
+  right: 6px;
+}
+
+.amount {
+  color: #00d1b2;
+}
+.cross{
+  text-decoration: line-through;
+}
+.correct{
+  color: #00d1b2;
+}
+.qus{
+  height: 30rem;
+  width: 100%;
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:60px;
+  
+}
+.dropdown-header {
+  color: #28a745;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dropdown-header:hover {
+  text-decoration: underline;
+}
+.answer {
+  padding-top: 10px;
+}
+.fa-chevron-down {
+  transition: transform 0.3s;
+}
+.collapse.show .fa-chevron-down {
+  transform: rotate(180deg);
+}
+.contact-info h5 {
+  color: #00d1b2;
+}
+.footer {
+  background-color: #02024a;
+  color: white;
+  padding: 40px 0;
+}
+.footer a {
+  color: #1bb1dc;
+}
+.footer a:hover {
+  color: #0a98c0;
+}
+.footer .social-icons a {
+  margin-right: 15px;
+  color: white;
+}
+.footer .social-icons a:hover {
+  color: #1bb1dc;
+}
+
+.img-size {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+}

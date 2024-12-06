@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Letter Animation</title>
+  <style>
+    /* Basic styling for the text */
+    .text-container {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #4CAF50;
+      display: inline-block;
+      white-space: nowrap;
+    }
+    .letter {
+      display: inline-block;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.5s ease;
+    }
+  </style>
+</head>
+<body>
+  <div id="text" class="text-container">Hello, World!</div>
+
+  <script>
+    // JavaScript to handle letter-by-letter animation
+    const textContainer = document.getElementById("text");
+    const text = textContainer.textContent; // Get the text
+    textContainer.textContent = ""; // Clear the container
+
+    // Wrap each letter in a span
+    [...text].forEach((letter, index) => {
+      const span = document.createElement("span");
+      span.textContent = letter; // Set the letter
+      span.classList.add("letter"); // Add class for styling
+      textContainer.appendChild(span);
+
+      // Add animation with a delay for each letter
+      setTimeout(() => {
+        span.style.opacity = "1";
+        span.style.transform = "translateY(0)";
+      }, index * 100); // Adjust the delay (100ms per letter)
+    });
+  </script>
+</body>
+</html>

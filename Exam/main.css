@@ -1,0 +1,50 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, .nav-link {
+  font-family: 'Playfair Display', serif;
+}
+
+header .logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+header .nav-link {
+  color: #000;
+  margin: 0 10px;
+}
+
+.basket-items .card-title {
+  font-family: 'Playfair Display', serif;
+}
+
+.order-summary .list-group-item {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #333;
+}
+.main-cont{
+  height: 600px;
+  width: 950px;
+  background-color: white;
+  border-radius: 15px;
+}
+.text-end1{
+  position: relative;
+  left: 250px;
+}
+.text-end2{
+  position: relative;
+  left: 260px;
+}
+.text-end3{
+  position: relative;
+  left: 290px;
+}
+.text-end4{
+  position: relative;
+  left: 260px;
+}
